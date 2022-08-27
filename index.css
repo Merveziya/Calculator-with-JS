@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0;
+  margin-top: 150px;
+  text-align: center;
+  background-color: rgb(75, 171, 209);
+  overflow-y: hidden;
+}
+
+span {
+  padding: 4px;
+  width: 50px;
+}
+input {
+  margin: 8px;
+}
+
+button {
+  margin: 50px 5px;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 8px;
+  width: 130px;
+  height: 50px;
+  background-color: bisque;
+}
+
+#first,
+#second {
+  background-color: pink;
+  width: 55px;
+  height: 55px;
+}
+#third {
+  width: 100px;
+  height: 50px;
+  background-color: pink;
+}
+
+#number-container {
+  margin: 10px;
+  text-align: center;
+  color: #0c860a;
+}
+
+#number-container span {
+  margin: 10px;
+  font-size: 60px;
+}
+#result {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 30px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(230, 173, 175);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    overflow-y: hidden;
+  }
+  input {
+    padding: 5px;
+    padding-top: 10px;
+  }
+  button {
+    margin: 15px;
+    width: 35%;
+  }
+}
